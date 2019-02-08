@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#12e4cb"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/reg_icon"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_linked_camera_black_24dp"
+            android:layout_gravity="center"
+            android:onClick="takeSelfi"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etName"
+                android:height="40dp"
+                android:hint="Name"
+                android:textColor="#0d0b0b"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etPhone"
+                android:height="40dp"
+                android:hint="Phone"
+                android:textColor="#0d0b0b"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etEmail"
+                android:height="40dp"
+                android:hint="Email"
+                android:textColor="#0d0b0b"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etAddress"
+                android:height="40dp"
+                android:hint="Address"
+                android:textColor="#0d0b0b"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etGender"
+                android:height="40dp"
+                android:hint="Gender"
+                android:textColor="#0d0b0b"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Submit"
+            android:onClick="Submit"
+            android:textColor="#fff"
+            android:background="#2f0eec"
+            android:layout_height="wrap_content"
+            android:padding="4dp"/>
+    </LinearLayout>
+</LinearLayout>

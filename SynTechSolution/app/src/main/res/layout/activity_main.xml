@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0ef430"
+    android:layout_margin="20dp"
+    tools:context="com.example.admin.syntechsolution.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowJson"
+        android:textSize="30dp"
+        android:onClick="showJson"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowList"
+        android:textSize="30dp"
+        android:onClick="showList"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:onClick="registration"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show-Reg"
+        android:textSize="30dp"
+        android:onClick="ShowRegisterData"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
